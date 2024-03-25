@@ -1,7 +1,8 @@
 ﻿using System.Diagnostics;
 using TheOneBillionRowChallenge.Solutions;
 
-const string inputPath = "";
+const string filePrefix = "100m_";
+const string inputPath = $"/Users/jakub.ornass/Projects/1brc/data/{filePrefix}measurements.txt";
 
 var stopwatch = Stopwatch.StartNew();
 V4Parallelize.Solve(inputPath);
